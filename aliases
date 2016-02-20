@@ -1,0 +1,48 @@
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --show-control-chars -F --color $*
+pwd=cd
+clear=cls
+history=cat %appie_ROOT%\config\.history
+get-pip=python "%appie_ROOT%\base\get-pip.py" $*
+updatethis=git pull origin master
+update=cd /d "%appie_ROOT%" $T sh "%appie_ROOT%\bin\update.sh" $*
+
+androbugs="%appie_ROOT%\bin\AndroBugs_Framework\androbugs.exe" $*
+
+androwarn=cd /d "%appie_ROOT%\bin\androwarn" $T python "%appie_ROOT%\bin\androwarn\androwarn.py" $*
+
+atom="%appie_ROOT%\bin\Atom\atom.exe" $1 -new_console:s60H
+
+bytecodeviewer=java -jar "%appie_ROOT%\bin\bytecode-viewer\BytecodeViewer-2.9.8-fatjar.jar" $* -new_console
+
+drozer="%appie_ROOT%\base\drozer.bat" $* -new_console:s50H
+
+firefox="%appie_ROOT%\bin\FirefoxPortable\FirefoxPortable.exe" $*
+
+pidcat=python "%appie_ROOT%\bin\pidcat\pidcat.py" $*
+
+sqlitebrowser="%appie_ROOT%\bin\SQLiteDatabaseBrowser64\sqlitebrowser.exe" -new_console
+
+sqlmap=python "%appie_ROOT%\bin\sqlmap\sqlmap.py" $*
+
+apktool=java -jar "%appie_ROOT%\bin\tools-repo\apktool\apktool.jar" $*
+burpsuite=start javaw -jar "%appie_ROOT%\bin\tools-repo\burpsuite\burpsuite.jar" -new_console
+jdgui=start javaw -jar "%appie_ROOT%\bin\JD-GUI\jd-gui-1.4.0.jar" $1 -new_console
+jadx="%appie_ROOT%\bin\tools-repo\jadx\bin\jadx.bat" $*
+jadx-gui="%appie_ROOT%\bin\tools-repo\jadx\bin\jadx-gui.bat" $* -new_console
+
+
+volatility="%appie_ROOT%\bin\volatility\volatility-2.5.standalone.exe" $*
+
+androarsc=python "%appie_ROOT%\bin\androguard\androarsc.py" $*
+androauto=python "%appie_ROOT%\bin\androguard\androauto.py" $*
+androlyze=python "%appie_ROOT%\bin\androguard\androlyze.py" $*
+androaxml=python "%appie_ROOT%\bin\androguard\androaxml.py" $*
+androcsign=python "%appie_ROOT%\bin\androguard\androcsign.py" $*
+androsign=python "%appie_ROOT%\bin\androguard\androsign.py" $*
+androdd=python "%appie_ROOT%\bin\androguard\androdd.py" $*
+androdiff=python "%appie_ROOT%\bin\androguard\androdiff.py" $*
+androgui=python "%appie_ROOT%\bin\androguard\androgui.py" $*
+androsim=python "%appie_ROOT%\bin\androguard\androsim.py" $*
+androdis=python "%appie_ROOT%\bin\androguard\androdis.py" $*
