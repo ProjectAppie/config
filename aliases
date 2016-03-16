@@ -16,6 +16,8 @@ atom="%appie_ROOT%\bin\Atom\atom.exe" $1 -new_console:s60H
 
 bytecodeviewer=java -jar "%appie_ROOT%\bin\bytecode-viewer\BytecodeViewer-2.9.8-fatjar.jar" $* -new_console
 
+goatdroid=java -jar "%appie_ROOT%\vulnerable_apps\OWASP-GoatDroid-0.9\goatdroid-0.9.jar" -new_console
+
 drozer="%appie_ROOT%\base\drozer.bat" $* -new_console:s50H
 
 firefox="%appie_ROOT%\bin\FirefoxPortable\FirefoxPortable.exe" $*
