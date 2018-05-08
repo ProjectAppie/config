@@ -27,7 +27,7 @@
 
 :: Enhance Path
 @set git_install_root=%appie_ROOT%\base\git-for-windows
-@set PATH=%appie_ROOT%\bin;%git_install_root%\bin;%git_install_root%\usr\bin;%PATH%;%appie_ROOT%\bin\adt\sdk\platform-tools;%git_install_root%\mingw32\bin;%git_install_root%\cmd;%git_install_root%\share\vim\vim74;%appie_ROOT%\bin\adt\eclipse;%appie_ROOT%\base\python;%appie_ROOT%\bin\adt\eclipse\jre\bin;%appie_ROOT%\bin\adt\eclipse\jre\lib;%appie_ROOT%\bin\adt\eclipse\bin;%appie_ROOT%\bin\adt\sdk\tools;%appie_ROOT%\bin\Wireshark;%appie_ROOT%\bin\tools-repo\dex2jar;%appie_ROOT%\base\jre1.8.0_171\bin;%appie_ROOT%\base\jdk1.8.0_171\bin
+@set PATH=%appie_ROOT%\bin;%git_install_root%\bin;%git_install_root%\usr\bin;%PATH%;%appie_ROOT%\bin\adt\sdk\platform-tools;%git_install_root%\mingw32\bin;%git_install_root%\cmd;%git_install_root%\share\vim\vim74;%appie_ROOT%\bin\adt\eclipse;%appie_ROOT%\base\python;%appie_ROOT%\bin\adt\eclipse\jre\bin;%appie_ROOT%\bin\adt\eclipse\jre\lib;%appie_ROOT%\bin\adt\eclipse\bin;%appie_ROOT%\bin\adt\sdk\tools;%appie_ROOT%\bin\Wireshark;%appie_ROOT%\bin\tools-repo\dex2jar;%appie_ROOT%\base\jre1.8.0_171\bin;%appie_ROOT%\base\jdk1.8.0_171\bin;%appie_ROOT%\base\python3
 ::@set PYTHONPATH=%appie_ROOT%\base\python\Lib\site-packages
 :: Add aliases
 @doskey /macrofile="%appie_ROOT%\config\aliases"
